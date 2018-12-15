@@ -1,0 +1,80 @@
+Projet 3 : Mettre ma logique à  l'épreuve
+Pour OpenClassrooms
+Par Thibaut Jouen
+
+================> Présentation du projet <=================
+
+Ce programme est une compilation de jeux. On y retrouve le
+jeux de recherche + ou -, et le mastermind, respectivement
+accompagnés par 3 modes :
+	- mode challenger
+	- mode défenseur
+	- mode duel
+
+Les deux jeux consiste à retrouver un code à l'aide
+d'information. Ce mode correspond au mode Challenger.
+L'ordinateur peut aussi essayer de trouver votre code. Pour
+cela il faut lancer le mode défenseur. Enfin, si vous
+voulez devinez un code avant que l'ordinateur ne trouve le
+votre, lancé le mode duel.
+
+
+================> Contenu du projet <======================
+
+Dans launcher :
+-> Un .jar lançant l'application via une commande
+		java -jar launchByCommand.jar
+-> Un .bat lançant l'application via un double click sous
+windows
+-> Un dossier contenant le jar pour lancé le .bat
+-> Un .properties qui gère les paramètre du .jar et du .bat
+
+Dans src :
+-> Des .java codes source du programme, rangée dans leurs
+packages.
+
+Dans bin :
+-> Des .class, compilation des .java.
+
+Dans META-INF :
+-> Le manifest pour le jar executable
+
+A la racine :
+-> Un .properties utilisible dans un projet d'un IDE pour
+configurer durant le developement
+-> Ce readme que vous être en train de lire
+
+
+================> Comment lancer le programme <============
+
+Méthode 1 : Sous windows
+-> Dans le dossier launcher, double clické sur
+launchByDoubleClick.bat
+
+Méthode 2 : Via invité de commande, sous windows, mac OSX
+et linux
+-> Dans le dossier launcher, lancé la commande 
+java -jar launchByCommand.jar
+
+
+================> Comment configurer le programme <========
+
+Ouvrer le fichier config.properties dans un editeur de
+texte.
+Vous pouvez modifier les variables présentes dans le fichier
+pour modifier le nombre de chiffre des codes, le nombre 
+d'essais pour retrouver le code, le nombre de couleurs
+possible pour le jeux du mastermind.
+Vous pouvez aussi changer le mode du jeux, si le devMode est
+ON, vous aurez accès à des informations suplémentaire
+pour gagné plus facilement ou simplement tester le programme
+
+
+========> Comment navigue t'on dans le programme <=========
+
+Utilisé votre clavier pour navigé dans l'application. Il faut
+entré des chiffres pour navigé dans les menus, et répondre
+au différents situation que l'application vous présentera.
+
+Si vous terminez un jeux, on vous proposera de le relancer,
+changé de jeu, ou de quitter le programme
