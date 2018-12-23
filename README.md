@@ -10,7 +10,7 @@ Un invité de commande si vous n'ètes pas sous windows.
 
 Le dossier 3_MettreMaLogiqueALepreuve de ce repertoire git hub
 
-### Installing
+### Installation
 
 Installer java 10.0.2
 
@@ -18,8 +18,8 @@ Installer java 10.0.2
 https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase10-4425482.html
 ```
 
-Si vous voulez seulement tester le programme, récupérez le Java SE Development Kit 10.0.2
-Si vous voulez aussi pouvoir modifié et compilé le programme, récupérez également le Java SE Runtime Environment 10.0.2
+Si vous voulez seulement tester le programme, récupérer le Java SE Development Kit 10.0.2
+Si vous voulez aussi pouvoir modifier et compiler le programme, récupérer également le Java SE Runtime Environment 10.0.2
 
 ## Lancer le programme
 
@@ -39,45 +39,39 @@ java -jar launchByCommand.jar
 
 ## Utiliser le programme
 
-Tous ce fait à l'aide du clavier. Vous pouvez naviguer dans les menus à l'aide des chiffres 1, 2 ou 3.
+Tout se fait à l'aide du clavier. Vous pouvez naviguer dans les menus à l'aide des chiffres 1, 2 ou 3.
 
-Répondez au question que l'on vous pose avec votre clavier également.
+Réponder aux questions que le programme vous pose avec votre clavier.
 
-## Paramètrer le programme
+## Paramétrer le programme
 
-Ouvrir avec un éditeur de texte le fichier : 
+Ouvrir avec un éditeur de textes le fichier : 
 
 ```
 config.properties
 ```
 
-Changer les valeurs des variables pour paramètrer le programme
+Changer les valeurs des variables pour paramétrer le programme
 
 ```
 nbCase
 ```
-nbCase correspond au nombre de chiffre d'un code
+nbCase correspond au nombre de chiffres d'un code
 
 ```
 nbTry
 ```
-nbTry correspond au nombre d'essais qu'un mode permet avant d'afficher le Game Over
+nbTry correspond au nombre d'essais qu'un mode permet, avant d'afficher le Game Over
 
 ```
 nbColors
 ```
-nbColors correspond au nombre de couleurs possibles pour le jeu du mastermind.
+nbColors correspond au nombre de couleurs possibles pour le jeu du mastermind
 
 ```
 devMode
 ```
 Si le devMode est égal à 1, vous aurez accès à des informations supplémentaires pour gagner plus facilement ou simplement tester le programme
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Authors
 
