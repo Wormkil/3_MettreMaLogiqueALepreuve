@@ -1,80 +1,87 @@
-Projet 3 : Mettre ma logique à  l'épreuve
-Pour OpenClassrooms
-Par Thibaut Jouen
+# Project Title
 
-================> Présentation du projet <=================
+One Paragraph of project description goes here
 
-Ce programme est une compilation de jeux. On y retrouve le
-jeux de recherche + ou -, et le mastermind, respectivement
-accompagnés par 3 modes :
-	- mode challenger
-	- mode défenseur
-	- mode duel
+## Getting Started
 
-Les deux jeux consiste à retrouver un code à l'aide
-d'information. Ce mode correspond au mode Challenger.
-L'ordinateur peut aussi essayer de trouver votre code. Pour
-cela il faut lancer le mode défenseur. Enfin, si vous
-voulez devinez un code avant que l'ordinateur ne trouve le
-votre, lancé le mode duel.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+### Prerequisites
 
-================> Contenu du projet <======================
+What things you need to install the software and how to install them
 
-Dans launcher :
--> Un .jar lançant l'application via une commande
-		java -jar launchByCommand.jar
--> Un .bat lançant l'application via un double click sous
-windows
--> Un dossier contenant le jar pour lancé le .bat
--> Un .properties qui gère les paramètre du .jar et du .bat
+```
+Give examples
+```
 
-Dans src :
--> Des .java codes source du programme, rangée dans leurs
-packages.
+### Installing
 
-Dans bin :
--> Des .class, compilation des .java.
+A step by step series of examples that tell you how to get a development env running
 
-Dans META-INF :
--> Le manifest pour le jar executable
+Say what the step will be
 
-A la racine :
--> Un .properties utilisible dans un projet d'un IDE pour
-configurer durant le developement
--> Ce readme que vous être en train de lire
+```
+Give the example
+```
 
+And repeat
 
-================> Comment lancer le programme <============
+```
+until finished
+```
 
-Méthode 1 : Sous windows
--> Dans le dossier launcher, double clické sur
-launchByDoubleClick.bat
+End with an example of getting some data out of the system or using it for a little demo
 
-Méthode 2 : Via invité de commande, sous windows, mac OSX
-et linux
--> Dans le dossier launcher, lancé la commande 
-java -jar launchByCommand.jar
+## Running the tests
 
+Explain how to run the automated tests for this system
 
-================> Comment configurer le programme <========
+### Break down into end to end tests
 
-Ouvrer le fichier config.properties dans un editeur de
-texte.
-Vous pouvez modifier les variables présentes dans le fichier
-pour modifier le nombre de chiffre des codes, le nombre 
-d'essais pour retrouver le code, le nombre de couleurs
-possible pour le jeux du mastermind.
-Vous pouvez aussi changer le mode du jeux, si le devMode est
-ON, vous aurez accès à des informations suplémentaire
-pour gagné plus facilement ou simplement tester le programme
+Explain what these tests test and why
 
+```
+Give an example
+```
 
-========> Comment navigue t'on dans le programme <=========
+### And coding style tests
 
-Utilisé votre clavier pour navigé dans l'application. Il faut
-entré des chiffres pour navigé dans les menus, et répondre
-au différents situation que l'application vous présentera.
+Explain what these tests test and why
 
-Si vous terminez un jeux, on vous proposera de le relancer,
-changé de jeu, ou de quitter le programme
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
