@@ -1,60 +1,77 @@
-# Project Title
+# Mettre ma logique à l'épreuve
 
-One Paragraph of project description goes here
+Ce programme est une compilation de jeux. On y retrouve le jeu de recherche + ou -, et le mastermind, respectivement accompagnés par 3 modes : le mode challenger, le mode défenseur, le mode duel.
 
-## Getting Started
+Les deux jeux consistent à retrouver un code à l'aide d'informations. Ce mode correspond au mode Challenger. L'ordinateur peut aussi essayer de trouver votre code. Pour cela, il faut lancer le mode défenseur. Enfin, si vous voulez deviner un code avant que l'ordinateur ne trouve le votre, lancez le mode duel.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Prérequis
 
-### Prerequisites
+Un invité de commande si vous n'ètes pas sous windows.
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Le dossier 3_MettreMaLogiqueALepreuve de ce repertoire git hub
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Installer java 10.0.2
 
 ```
-Give the example
+https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase10-4425482.html
 ```
 
-And repeat
+Si vous voulez seulement tester le programme, récupérez le Java SE Development Kit 10.0.2
+Si vous voulez aussi pouvoir modifié et compilé le programme, récupérez également le Java SE Runtime Environment 10.0.2
+
+## Lancer le programme
+
+* **Méthode 1 :** Sous windows
+-> Dans le dossier launcher, double clicker sur
 
 ```
-until finished
+launchByDoubleClick.bat
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+* **Méthode 2 :** Via un invité de commande, sous windows, mac OSX
+et linux, dans le dossier launcher, lancer la commande 
 
 ```
-Give an example
+java -jar launchByCommand.jar
 ```
 
-### And coding style tests
+## Utiliser le programme
 
-Explain what these tests test and why
+Tous ce fait à l'aide du clavier. Vous pouvez naviguer dans les menus à l'aide des chiffres 1, 2 ou 3.
+
+Répondez au question que l'on vous pose avec votre clavier également.
+
+## Paramètrer le programme
+
+Ouvrir avec un éditeur de texte le fichier : 
 
 ```
-Give an example
+config.properties
 ```
 
-## Deployment
+Changer les valeurs des variables pour paramètrer le programme
 
-Add additional notes about how to deploy this on a live system
+```
+nbCase
+```
+nbCase correspond au nombre de chiffre d'un code
+
+```
+nbTry
+```
+nbTry correspond au nombre d'essais qu'un mode permet avant d'afficher le Game Over
+
+```
+nbColors
+```
+nbColors correspond au nombre de couleurs possibles pour le jeu du mastermind.
+
+```
+devMode
+```
+Si le devMode est égal à 1, vous aurez accès à des informations supplémentaires pour gagner plus facilement ou simplement tester le programme
 
 ## Built With
 
@@ -62,27 +79,7 @@ Add additional notes about how to deploy this on a live system
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* **Thibaut Jouen**
 
