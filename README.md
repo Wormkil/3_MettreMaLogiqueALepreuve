@@ -73,7 +73,7 @@ devMode
 ```
 Si le devMode est égal à 1, vous aurez accès à des informations supplémentaires pour gagner plus facilement ou simplement tester le programme
 
-## Authors
+## Auteurs
 
 * **Thibaut Jouen**
 
