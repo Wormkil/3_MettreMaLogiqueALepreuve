@@ -8,7 +8,7 @@ Les deux jeux consistent à retrouver un code à l'aide d'informations. Ce mode 
 
 Un invité de commande si vous n'ètes pas sous windows.
 
-Le dossier 3_MettreMaLogiqueALepreuve de ce repertoire git hub
+Le dossier 3_MettreMaLogiqueALepreuve de ce repertoire github
 
 ### Installation
 
